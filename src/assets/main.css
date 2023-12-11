@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'R-400';
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'R-500';
+  src: url(./fonts/Raleway-Medium.ttf);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'R-400', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: 'R-500', sans-serif;
+  font-weight: 500;
+}
