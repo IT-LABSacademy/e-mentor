@@ -1,12 +1,14 @@
 <template>
-  <TheNavbar />
+  <!-- <TheNavbar /> -->
+
+  <h1 class="text-4xl">Home</h1>
 </template>
 
 <script>
-import TheNavbar from '@/components/TheNavbar.vue';
+// import TheNavbar from '@/components/TheNavbar.vue';
 
 
 export default {
-  components: { TheNavbar }
+  // components: { TheNavbar }
 }
 </script>
