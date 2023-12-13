@@ -12,6 +12,7 @@
               Платформа
             </router-link>
           </li>
+          <i class="fa-solid fa-bars"></i>
         </ul>
       </nav>
     </div>
@@ -25,3 +26,32 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+nav {
+  display: flex;
+  padding: 20px 0;
+}
+
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+nav ul i {
+  margin-top: 6px;
+  display: none;
+}
+@media (max-width: 1115px) {
+  nav ul li {
+    display: none;
+  }
+
+  nav ul i {
+    display: flex;
+  }
+}
+  
+</style>
