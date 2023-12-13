@@ -1,14 +1,16 @@
 <template>
-  <header class="header">
+  <header class="header py-[15px]">
     <div class="container">
-      <nav>
+      <nav class="flex items-center justify-between">
         <div class="logo">
+        <router-link to="/">
           <img src="@/assets/images/logotype.svg" alt="#">
+        </router-link>
         </div>
 
-        <ul>
+        <ul class="flex items-center justify-between gap-10">
           <li v-for="link in 7" :key="link">
-            <router-link to="#">
+            <router-link to="about" class="text-base font-[R-500] text-dark">
               Платформа
             </router-link>
           </li>
@@ -54,4 +56,8 @@ nav ul i {
   }
 }
   
+.router-link-exact-active {
+  border-bottom: 2px dashed #FA9F42;
+  padding-bottom: 8px;
+}
 </style>
