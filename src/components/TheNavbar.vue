@@ -19,6 +19,7 @@
 </template>
 
 <script>
+// import navbarArray from '../navbar.js'
 export default {
   data() {
     return {}

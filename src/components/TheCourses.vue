@@ -22,7 +22,7 @@
         </div>
 
         <div class="btns">
-            <button class="btn bg-[#10B582] py-5 px-20 mx-auto text-light">Все курсы</button>
+            <button class="btn bg-[#10B582] py-5 px-20 justify-between text-light">Все курсы</button>
         </div>
     </div>
 </template>
