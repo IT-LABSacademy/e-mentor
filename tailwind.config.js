@@ -13,7 +13,6 @@ export default {
         'dark': '#353a5a',
         'green': '#10B582',
         'orange': '#FA9F42'
-
       }
     },
   },
