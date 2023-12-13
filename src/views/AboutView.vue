@@ -1,8 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <AboutNumber/>
 </template>
+
+<script>
+import AboutNumber from '@/components/AboutNumber.vue';
+
+export default {
+  components: { AboutNumber }
+}
+</script>
 
 <style>
 @media (min-width: 1024px) {
