@@ -42,6 +42,10 @@ export default {
     flex-direction: column;
 }
 
+.statistic {
+    margin-bottom: 110px;
+}
+
 .statistic .wrapper {
     flex-wrap: wrap;
     display: flex;

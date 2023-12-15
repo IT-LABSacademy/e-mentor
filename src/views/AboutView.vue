@@ -1,12 +1,16 @@
 <template>
   <AboutNumber/>
+  <section class="bg-green">
+    <AboutTraining />
+  </section>
 </template>
 
 <script>
 import AboutNumber from '@/components/AboutNumber.vue';
+import AboutTraining from '@/components/AboutTraining.vue';
 
 export default {
-  components: { AboutNumber }
+  components: { AboutNumber , AboutTraining}
 }
 </script>
 
