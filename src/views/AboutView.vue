@@ -1,24 +1,16 @@
 <template>
-  <Motion/>
-  <CourseNumber/>
+  <Motion />
+  <CourseNumber />
+  <AboutTraining />
 </template>
 
 <script>
 import Motion from '@/components/courses/motion.vue';
-import CourseNumber from '../components/courses/CourseNumber.vue';
+import CourseNumber from '@/components/courses/CourseNumber.vue';
+import AboutTraining from '@/components/courses/AboutTraining.vue';
 
 
 export default {
-  components: { CourseNumber, Motion }
+  components: { CourseNumber, Motion, AboutTraining }
 }
 </script>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

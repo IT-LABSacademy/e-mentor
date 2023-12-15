@@ -1,5 +1,5 @@
 <template>
-    <section class="statistic">
+    <section class="statistic mb-5 lg:mb-16">
         <div class="container">
             <div class="wrapper flex flex-wrap gap-7 justify-center">
                 <!-- card -->

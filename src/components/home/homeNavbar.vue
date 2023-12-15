@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="bg-green">
     <div class="container">
 
       <!-- MENU -->
