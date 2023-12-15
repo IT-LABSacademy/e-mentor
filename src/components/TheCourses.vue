@@ -1,8 +1,8 @@
 <template>
     <div class="container">
-        <h1 class="text-center font-[R-500] text-6xl">Популярные курсы</h1>
+        <h1 class="text-center font-[R-500] text-6xl py-14">Популярные курсы</h1>
 
-        <div class="image-box  flex gap-4 my-11">
+        <div class="image-box  flex gap-4 my-11 ">
             <div class="img shadow-lg shadow-slate-400/50">
                 <img src="../assets/images/pic (1).png" alt="">
                 <p class="py-2">Motion Design</p>
