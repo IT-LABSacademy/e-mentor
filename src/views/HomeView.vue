@@ -6,7 +6,8 @@
 </template>
 
 <script>
-import HomeNumber from '@/components/HomeNumber.vue';
+// import AboutNumber from '@/components/AboutNumber.vue';
+import HomeNumber from '../components/home/HomeNumber.vue';
 import HomeNavbar from '@/components/home/homeNavbar.vue';
 
 

@@ -1,12 +1,15 @@
 <template>
-  <AboutNumber/>
+  <Motion/>
+  <CourseNumber/>
 </template>
 
 <script>
-import AboutNumber from '@/components/AboutNumber.vue';
+import Motion from '@/components/courses/motion.vue';
+import CourseNumber from '../components/courses/CourseNumber.vue';
+
 
 export default {
-  components: { AboutNumber }
+  components: { CourseNumber, Motion }
 }
 </script>
 
