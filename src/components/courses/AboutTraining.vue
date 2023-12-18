@@ -7,7 +7,7 @@
                 <div class="up">
                     <h1 class="text-light">Актуальные знания</h1>
                 </div>
-                <div class="doun text-light">
+                <div class="down text-light">
                     <p>
                         Мы понимаем, как быстро меняются тренды и появляются обновления. Поэтому
                         мы всегда следим за всеми новинками, добавляем в про
@@ -45,7 +45,7 @@
     max-width: 540px;
 }
 
-.format .texts .doun p {
+.format .texts .down p {
     font-size: 16px;
     font-family: 'R-400';
     max-width: 478px;
@@ -69,7 +69,7 @@
         font-size: 39px;
     }
 
-    .format .texts .doun p {
+    .format .texts .down p {
         font-size: 10px;
     }
 
