@@ -2,7 +2,7 @@
     <section class="TheLearn">
         <div class="container">
             <h1 class="text-6xl text-center py-4 font-['R-500']">На курсы вы научитесь</h1>
-            <div class="block flex justify-center items-center gap-10 py-6">
+            <div class="blok flex justify-center items-center gap-10 py-6">
                 <div class="block1 border py-6 px-4 shadow-md">
                     <div class="title flex items-center justify-center gap-2">
                         <img src="/./src/assets/images/icon.svg" alt="">

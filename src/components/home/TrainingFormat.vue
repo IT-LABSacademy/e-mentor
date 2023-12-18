@@ -2,7 +2,7 @@
     <section class="format bg-green py-14 md:py-24 xl:py-28">
         <div class="container flex items-center justify-center lg:justify-between flex-wrap gap-10">
 
-<!-- image-block -->
+            <!-- image-block -->
             <div class="image-block md:w-[450px]">
                 <img class="relative z-10 w-full h-full object-cover" src="../../assets/images/photo.png" alt="">
             </div>
