@@ -49,8 +49,7 @@
         </div>
 
         <!-- to-bottom -->
-        <div class="to-bottom flex gap-3 items-center justify-start -rotate-90
-        hidden lg:block">
+        <div class="to-bottom hidden lg:flex gap-3 items-center justify-start -rotate-90">
           <i class="fa-solid fa-arrow-left-long"></i>
           <p>Листайте вниз</p>
         </div>
