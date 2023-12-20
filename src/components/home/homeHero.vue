@@ -34,7 +34,7 @@
           <img src="../../assets/images/logo-white.svg" alt="#">
         </div>
 
-        <h1 class="text-6xl leading-[70px] max-w-xl mx-auto font-medium mt-10">Образовательная онлайн-платформа</h1>
+        <h1 class="text-[35px] lg:text-6xl lg:leading-[70px] max-w-[500px] mx-auto font-medium mt-24 lg:mt-10">Образовательная онлайн-платформа</h1>
         <p class="text-base max-w-sm mx-auto mt-5 mb-14">Курсы и видео-лекции по дизайну, копирайтингу, SMM, таргету и
           многим другим направлениям</p>
 

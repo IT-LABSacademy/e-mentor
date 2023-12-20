@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="text-center text-dark text-6xl py-14 sm:text-5xl ">Популярные курсы</h1>
+        <h1 class="text-center text-dark py-14 text-4xl lg:text-6xl ">Популярные курсы</h1>
 
         <div class="image-box  flex gap-4 my-11 justify-center sm:flex flex-wrap">
             <div class="card shadow-lg shadow-slate-400/50 p-5 rounded-xl">
