@@ -1,11 +1,13 @@
 <template>
   <footer class="footer">
-    <div class="container flex items-center justify-between">
-      <!-- LOGO -->
-      <div class="logo">
-        <img src="../assets/images/logotype.svg" alt="" />
-        <p class="max-w-[300px]">
-          Образовательная онлайн-платформа для развития и тренировки навыков в сфере
+    <div class="container">
+      <div class="wrapper flex items-center justify-between">
+
+        <!-- LOGO -->
+        <div class="logo mt-20">
+          <img class="w-60 h-30" src="../assets/images/logotype.svg" alt="" />
+          <p class="max-w-[300px] mt-7 mb-12">
+            Образовательная онлайн-платформа для развития и тренировки навыков в сфере
           информационных технологий
         </p>
         <!-- socials -->
@@ -29,24 +31,30 @@
       </div>
 
       <!-- quickLinks -->
-      <ul class="quickLinks flex items-center justify-between  bg-red-950">
+      <ul class="quickLinks flex items-center justify-between ">
         <li class="w-[135px]" v-for="item in footArr" :key="item">
           <ul>
             <h1>{{ item.title }}</h1>
-
+            
             <li v-for="text in item.links" :key="text">
               <a href="">{{ text.link }}</a>
             </li>
           </ul>
         </li>
       </ul>
-
+      
       <div class="email">
         <h1>Возникли вопросы?</h1>
         <p>Напишите нам на почту</p>
         <p>education@ementor.info</p>
       </div>
     </div>
+    <div class="w-full h-[1px] bg-dark/30"></div>
+      <div class="end text-start text-sm">
+        <p>E-Mentor © 2021 Все права защищены</p>
+      </div>
+    </div>
+    
   </footer>
 </template>
 
