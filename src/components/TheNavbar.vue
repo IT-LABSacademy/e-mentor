@@ -22,6 +22,7 @@
 </template>
 
 <script>
+// import navbarArray from '../navbar.js'
 import navbar from '@/navbar.js'
 
 export default {
