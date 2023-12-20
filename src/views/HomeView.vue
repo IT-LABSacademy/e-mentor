@@ -5,6 +5,7 @@
   <TheMentors />
   <TrainingFormat />
   <TheCourses />
+  <TheFooter />
   <!-- <TheLearn /> -->
 </template>
 
@@ -15,10 +16,11 @@ import TheCourses from '@/components/home/TheCourses.vue';
 import HomeNumber from '@/components/home/HomeNumber.vue';
 import TrainingFormat from '@/components/home/TrainingFormat.vue'
 import TheMentors from '@/components/home/TheMentors.vue'
+import TheFooter from '@/components/TheFooter.vue';
 // import TheLearn from '@/components/home/TheLearn.vue';
 
 export default {
-  components: { HomeNumber, HomeNavbar, TheCourses, TrainingFormat, TheMentors, homeHero }
+  components: { HomeNumber, HomeNavbar, TheCourses, TrainingFormat, TheMentors, homeHero, TheFooter }
 }
 </script>
 
