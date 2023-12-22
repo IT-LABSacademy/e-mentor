@@ -1,15 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Motion />
+  <CourseNumber />
+  <AboutTraining />
+  <TheLearn />
+  <discount/>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<script>
+import Motion from '@/components/courses/motion.vue';
+import CourseNumber from '@/components/courses/CourseNumber.vue';
+import AboutTraining from '@/components/courses/AboutTraining.vue';
+import TheLearn from '@/components/home/TheLearn.vue';
+import discount from '@/components/courses/discount.vue';
+
+
+export default {
+  components: { CourseNumber, Motion, AboutTraining, TheLearn, discount }
 }
-</style>
+</script>
