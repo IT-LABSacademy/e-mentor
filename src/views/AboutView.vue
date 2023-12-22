@@ -4,6 +4,7 @@
   <AboutTraining />
   <TheLearn />
   <Accordion />
+  <Discount />
 </template>
 
 <script>
@@ -12,9 +13,12 @@ import CourseNumber from '@/components/courses/CourseNumber.vue';
 import AboutTraining from '@/components/courses/AboutTraining.vue';
 import TheLearn from '@/components/home/TheLearn.vue';
 import Accordion from '@/components/courses/Accordion.vue';
+import Discount from '@/components/courses/discount.vue';
 
 
 export default {
-  components: { CourseNumber, Motion, AboutTraining, TheLearn, Accordion }
+  components: {
+    CourseNumber, Motion, AboutTraining, TheLearn, Accordion, Discount
+  }
 }
 </script>

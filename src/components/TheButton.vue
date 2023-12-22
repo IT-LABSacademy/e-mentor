@@ -23,7 +23,5 @@ export default {
 
 .btn:hover {
   transform: scale(1.2);
-  /* background: none; */
-  /* border: 2.5px solid orange; */
 }
 </style>
